@@ -1,0 +1,101 @@
+@charset "ISO-8859-1";
+body{
+        background-image: url('imp2.webp');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 40px;
+  background-color: MediumSeaGreen;
+}
+
+#ADD{
+  top: 80px;
+  background-color: Orange;
+}
+
+#Delete{
+  top: 140px;
+  background-color: #163abb;
+}
+
+#Update{
+  top: 200px;
+  background-color: LightGray
+}
+#Display{
+top: 260px;
+background-color: SlateBlue
+}
+#Log{
+top: 320px;
+background-color: Violet
+}
+#button{
+ position: relative;
+ display: inline-block;
+/*  margin: 10px;
+ padding: 4px 4px; */
+ text-align: center;
+ font-size: 15px;
+ letter-spacing: 0.5px;
+ color: #725AC1;
+ background: transparent;
+ cursor: pointer;
+ transition: ease-out 0.5s;
+ border-radius: 30px;
+ border: 2px solid #725AC1;
+ border-radius: 10px;
+ box-shadow: inset 0 0 0 0 #725AC1;
+}
+#button:hover {
+ color: white;
+ box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+#button:active {
+ transform: scale(0.9);
+}
+ .styled-table {
+    border-collapse: collapse;
+    margin: 0% 30%;
+    font-size: 1em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1.15);
+}
+.styled-table thead tr {
+    background-color: MediumSeaGreen;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #ce9613;
+}
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
